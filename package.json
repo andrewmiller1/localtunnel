@@ -2,7 +2,7 @@
   "author": "Roman Shtylman <shtylman@gmail.com>",
   "name": "localtunnel",
   "description": "expose localhost to the world",
-  "version": "1.9.0",
+  "version": "1.9.1",
   "license": "MIT",
   "repository": {
     "type": "git",
@@ -10,12 +10,12 @@
   },
   "dependencies": {
     "axios": "0.17.1",
-    "debug": "2.6.8",
+    "debug": "^3.1.0",
     "openurl": "1.1.1",
     "yargs": "6.6.0"
   },
   "devDependencies": {
-    "mocha": "~1.17.0"
+    "mocha": "^5.2.0"
   },
   "scripts": {
     "test": "mocha --ui qunit --reporter list --timeout 10000 -- test/index.js"
